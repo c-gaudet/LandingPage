@@ -3,3 +3,205 @@
 * {
     font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body{
+    margin:0;
+}
+
+header, footer, .section{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section {
+    padding: 24px 0px;
+}
+
+.wrapper {
+    width: 750px;
+    margin: 0px 36px;
+    flex-shrink: 0;
+
+}
+
+.darkblue {
+    background-color: #1F2937;
+}
+
+.white {
+    background-color: #f9faf8;
+}
+
+.grey {
+    background-color: #E5E7EB;
+}
+
+/* ok targeting specific stuff now */
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:16px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
+
+.headerlinks {
+    display: flex;
+    flex-shrink: 0;
+    gap: 16px;
+}
+
+header a,
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: lighter;
+    margin: 8px;
+}
+
+a:hover{
+    color:#F9FAF8;
+    cursor: pointer;
+}
+
+a:active{
+    color:#F9FAF8
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.hero h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero button{
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-style: none;
+    color:#F9FAF8;
+    padding: 8px 36px;
+    font-weight: bold;
+}
+
+.hero button:hover{
+    background-color: #5d9bff;
+}
+
+.hero button:active{
+    background-color: #1971ff;
+}
+
+.hero img{
+    width: 400px;
+    height: 200px;
+}
+
+.info h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+
+}
+.square{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-radius: 15px;
+}
+
+.quote .container{ 
+    padding:36px;
+
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote h3{
+    text-align: right;
+}
+
+
+.signup .container{
+    padding: 36px 48px;
+    margin: 36px auto;
+    background-color: #3882f6;
+    color:#F9FAF8;
+    border-radius: 16px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.signup button{
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color:#F9FAF8;
+    text-wrap: nowrap;
+    padding: 8px 24px;
+    
+}
+
+.signup p{
+    font-size: 16px;
+}
+
+
+.signup p::first-line{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+footer{
+    padding: 16px;
+    text-align: center;
+    color:#F9FAF8
+}
