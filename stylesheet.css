@@ -83,6 +83,7 @@ a:active{
     justify-content: center;
     align-items: center;
     padding: 24px;
+    gap: 16px;
 }
 
 .hero h1{
@@ -110,8 +111,11 @@ a:active{
 }
 
 .hero img{
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: auto;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
 }
 
 .info h1{
@@ -204,4 +208,12 @@ footer{
     padding: 16px;
     text-align: center;
     color:#F9FAF8
+}
+
+.signup button:hover{
+    background-color: #5d9bff;
+}
+
+.signup button:active{
+    background-color: #1971ff;
 }
